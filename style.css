@@ -1,0 +1,82 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: rgb(120, 216, 10);
+    font-family: arial;
+    box-sizing: border-box;
+}
+
+.card-container {
+    width: 300px;
+    height: 430px;
+    background: #fff;
+    border-radius: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0px 1px 10px 26px rgb(123, 6, 233);
+
+}
+
+ .upper-container {
+    height: 150px;
+    background: #df0909;
+
+}
+.image-container{
+    background: white;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    padding: 5px;
+    transform: translate(100px,100px);
+}
+.image-container img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.lower-container {
+height: 220px;
+background: coral;
+padding: 20px;
+padding-top: 40px;
+text-align: center;
+
+
+
+}
+
+.lower-container .btn {
+    padding: 12px 20px;
+    background: rgb(228, 226, 231);
+    border-radius: 20px;
+    border: none;
+   text-decoration: none;
+   font-size: 15px;
+
+
+}
+.lower-container h4 {
+   color: rgb(28, 228, 10);
+
+}
+
+.lower-container p{
+    color: rgb(154, 18, 233);
+
+}
+
+.lower-container .btn:hover {
+    background: transparent;
+   color: rgb(155, 25, 230);
+  border: 2px solid rgb(103, 235, 14);
+
+}
+
+
+
+
+
